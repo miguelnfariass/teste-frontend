@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f7f7;
+  color: #222;
+  padding: 24px;
+}
+
+/* títulos */
+h1 {
+  margin-bottom: 16px;
+}
+
+h2 {
+  margin: 24px 0 12px;
+}
+
+/* abas */
+#tabs {
+  margin-bottom: 24px;
+}
+
+#tabs button {
+  padding: 10px 22px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  background-color: #eaeaea;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+#tabs button:hover {
+  background-color: #ddd;
+}
+
+/* seções */
+#studentsSection,
+#teachersSection {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+/* filtros */
+.filters {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.filters label {
+  font-weight: bold;
+}
+
+.filters select {
+  min-width: 200px;
+  padding: 6px;
+}
+
+.filters button {
+  padding: 6px 14px;
+}
+
+/* lista de alunos */
+ul {
+  margin-top: 12px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* botão editar */
+li button {
+  margin-left: 8px;
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+/* professores */
+#teachersList strong {
+  display: block;
+  margin-top: 20px;
+}
+
+#teachersList p {
+  margin-left: 12px;
+  margin-top: 6px;
+}
+
+/* botão ver alunos */
+#teachersList button {
+  margin-left: 8px;
+  padding: 4px 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* lista de alunos por professor */
+#teachersList ul {
+  margin-top: 8px;
+  margin-left: 16px;
+  padding-left: 16px;
+  border-left: 2px solid #ddd;
+}
+
+/* linha divisória */
+hr {
+  margin: 20px 0;
+}
+
+/* espaçamento para botões inline */
+button {
+  margin-left: 8px;
+}

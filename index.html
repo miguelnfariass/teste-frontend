@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Estágio</title>
+
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <!-- abas de navegação -->
+    <div id="tabs">
+      <button id="tabStudents">Estudantes</button>
+      <button id="tabTeachers">Professores</button>
+    </div>
+
+    <!-- seção de estudantes -->
+    <div id="studentsSection">
+      <h1>Estudantes</h1>
+
+      <!-- filtros de estudantes -->
+      <div class="filters">
+        <label>
+          Série:
+          <select id="degreeFilter">
+            <option value="">Todos</option>
+          </select>
+        </label>
+
+        <label>
+          Classe:
+          <select id="classFilter">
+            <option value="">Todos</option>
+          </select>
+        </label>
+        <button id="generateStudents">Gerar alunos</button>
+      </div>
+
+      <!-- gráfico de alunos por série -->
+      <h2>Alunos por Série</h2>
+      <div id="chart"></div>
+
+      <!-- lista de estudantes -->
+      <ul id="studentsList"></ul>
+    </div>
+
+    <hr />
+
+    <!-- seção de professores -->
+    <div id="teachersSection">
+      <h1>Professores</h1>
+
+      <!-- novo cadastro -->
+      <h2>Novo cadastro</h2>
+
+      <div id="newRelationshipForm" class="filters">
+        <label>
+          Professor:
+          <select id="newTeacher"></select>
+        </label>
+
+        <label>
+          Matéria:
+          <select id="newMatter"></select>
+        </label>
+
+        <label>
+          Série:
+          <select id="newDegree"></select>
+        </label>
+
+        <label>
+          Classe:
+          <select id="newClass"></select>
+        </label>
+
+        <button id="addRelationship">Adicionar</button>
+      </div>
+
+      <!-- filtros de professores -->
+      <h2>Filtros de Professores</h2>
+
+      <div class="filters">
+        <label>
+          Série:
+          <select id="teacherDegreeFilter">
+            <option value="">Todos</option>
+          </select>
+        </label>
+
+        <label>
+          Classe:
+          <select id="teacherClassFilter">
+            <option value="">Todos</option>
+          </select>
+        </label>
+      </div>
+
+      <!-- lista de professores -->
+      <div id="teacherList"></div>
+    </div>
+
+    <!-- script -->
+    <script src="/js/data.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
