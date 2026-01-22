@@ -11,14 +11,13 @@ O objetivo principal foi demonstrar a capacidade de leitura e manipulação de d
 
 ## 🧱 Estrutura do Projeto
 
-project/
-├─ index.html
-├─ readme.md
-├─ js/
-│ ├─ data.js
-│ └─ main.js
-└─ css/
-└─ style.css
+- `index.html` — arquivo principal da aplicação
+- `readme.md` — documentação do projeto
+- `js/`
+  - `data.js` — dados estáticos utilizados na aplicação
+  - `main.js` — lógica principal da aplicação
+- `css/`
+  - `style.css` — estilos da aplicação
 
 ---
 
