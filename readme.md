@@ -11,13 +11,13 @@ O objetivo principal foi demonstrar a capacidade de leitura e manipulação de d
 
 ## 🧱 Estrutura do Projeto
 
-/project
+project/
 ├─ index.html
 ├─ readme.md
-├─ /js
+├─ js/
 │ ├─ data.js
 │ └─ main.js
-└─ /css
+└─ css/
 └─ style.css
 
 ---
